@@ -1,0 +1,24 @@
+[
+    {
+        "airline": "Vistara",
+            "price": "₹2,133",
+            "destination": "Jaipur",
+            "source": "Delhi",
+            "date": "2023-04-14"
+        },
+        {
+            "airline": "AirIndia",
+            "price": "₹1,950",
+            "destination": "Jaipur",
+            "source": "Delhi",
+            "date": "2023-04-14"
+        },
+        {
+           
+            "airline": "AirAsia",
+            "price": "₹1,869",
+            "destination": "Jaipur",
+            "source": "Delhi",
+            "date": "2023-04-14"
+    }
+]
