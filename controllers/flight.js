@@ -23,7 +23,7 @@ const getflight = async (req, res)=>{
 
 const flightPrices = async(req, res) =>{
   
-  const flight = await Flight.find(req.query);
+  const flight = await Flight.find(ueryObject);
 
 console.log(
   " ~ file: flight.js ~ line 15 ~ flightPrices ~ req.query",
