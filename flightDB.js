@@ -8,6 +8,7 @@ const start = async () =>{
   
   await connectDB(uri);
   await Flight.create(FlightJson);
+  await Flight.deleteMany();
   console.log("success");
 
     }catch(error){
