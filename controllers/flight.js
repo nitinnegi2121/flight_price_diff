@@ -3,7 +3,7 @@ const Flight = require("../models/flights");
 
 const getflight = async (req, res)=>{
     
-  const flight = await Flight.find({});
+  const flight = await Flight.find(req.query);
   res.status(200).json({flight })
 }
 
