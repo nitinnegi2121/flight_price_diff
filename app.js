@@ -8,7 +8,7 @@ const flight_routes =  require("./routes/flight");
 app.use("/api/flights", flight_routes);
 
 app.get('/', async(req, res)=>{
-  res.send("flights are available")
+  res.send("flights are available", flight_routes)
 })
 
 
