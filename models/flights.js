@@ -4,11 +4,10 @@ const flightSchema = new mongoose.Schema({
     airline:{
     
         type: String,
-        required : true,
-        // :{
-        //     values: ["Vistara", "AirIndia", "AirAsia", ],enum
-        //     message: '{values} no flight avaialable',
-        // }
+        enum:{
+            values: ["Vistara", "AirIndia", "AirAsia","Indigo", "SpiceJet", "GoAir" ],
+            message: '{values} no flight avaialable',
+        }
 
     },
     price:{
