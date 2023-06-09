@@ -20,5 +20,39 @@
             "destination": "Jaipur",
             "source": "Delhi",
             "date": "2023-04-14"
-    }
+    },
+    { 
+    "airline": "Indigo",
+    "price": "₹1,269",
+    "destination": "Chandigarh",
+    "source": "Delhi",
+    "date": "2023-04-1"
+},
+
+{ 
+    "airline": "SpiceJet",
+    "price": "₹4,269",
+    "destination": "Chandigarh",
+    "source": "Mumbai",
+    "date": "2023-04-5"
+},
+
+{ 
+    "airline": "SpiceJet",
+    "price": "₹1,269",
+    "destination": "Chandigarh",
+    "source": "Mumbai",
+    "date": "2023-04-5"
+},
+
+{ 
+    "airline": "GoAir",
+    "price": "₹1,569",
+    "destination": "Chandigarh",
+    "source": "Dehradun",
+    "date": "2023-04-5"
+}
+
+
+
 ]
